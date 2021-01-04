@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+  <title></title>
+    <link rel="stylesheet" href="css/estilo.css">
+   <link rel="stylesheet" href="css/normalize.css">
+   <link rel="stylesheet" href="css/responsive.css">
+
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.css">
+
+  </head>
+  <body>
+
+    <div class="social-media">
+      <a href="https://www.facebook.com/" class="facebook"><i class="fab fa-facebook-f"></i></a>
+      <a href="https://www.facebook.com/" class="instagram"><i class="fab fa-instagram"></i></a>
+      <a href="https://www.facebook.com/" class="youtube"><i class="fab fa-youtube"></i></a>
+    </div>
+
+    <header>
+
+    <a href="index.html"><img class="logo"src="logo.png"></a>
+
+
+      <nav>
+      <input type="checkbox" id="check">
+      <label for="check" class="checkbtn">
+        <i class="fas fa-bars"></i>
+
+      </label>
+
+
+        <ul class="lista_menu">
+          <li><a class="active" href="index.html">Inicio</a></li>
+          <li><a class="curso_boton" href="cursos.html">Cursos</a></li>
+          <li><a class="blog_boton"href="blog.html">Blog</a></li>
+
+        </ul>
+
+      </nav>
+
+
+    </header>
+
+
+      <div class="mensaje-contacto">
+
+        <h1> Contacto </h1>
+
+        </div>
+
+
+    <form action="contacto.php" method="post">
+      <input type="text" placeholder="nombre" id="nombre" name="nombre">
+      <input type="email" placeholder="Ingresar email" id="email" name="email">
+      <textarea name="mensaje" placeholder="ingresar mensaje aqui" rows="8" cols="80" id="textarea"></textarea>
+      <input type="submit" name="button" value="Enviar mensaje" id="button">
+
+  </body>
+</html>
