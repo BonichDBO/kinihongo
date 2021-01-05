@@ -6,7 +6,7 @@ $email = $_POST["email"];
 $mensaje = $_POST["mensaje"];
 
 
-$para = "ezequieldbo22@hotmail.com"
+$para = "ezequieldbo22@hotmail.com";
 
 $asunto = "nuevo mensaje de $nombre";
 
