@@ -86,6 +86,11 @@ background-color: #c72c41;
 
 }
 
+.logo_moviles{
+
+  display: none;
+}
+
 
 nav{
   position: absolute;

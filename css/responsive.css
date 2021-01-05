@@ -491,6 +491,19 @@
   }
 
 
+label.logo_moviles{
+
+  display: flex;
+  color:white;
+  font-size: 35px;
+  line-height: 80px;
+  padding: 0 100px;
+  font-weight: bold;
+
+
+}
+
+
 
   .checkbtn {
     display: block;
@@ -498,7 +511,7 @@
   }
 
   nav{
-
+  
     position: fixed;
     z-index: 2;
     width: 100%;
