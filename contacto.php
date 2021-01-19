@@ -18,7 +18,7 @@ $mensaje ="
 
 ";
 
-email($para,$asunto,uft8_decode($mensaje));
+email($para,$asunto,$mensaje);
 
 header("location: formulario.html");
 
